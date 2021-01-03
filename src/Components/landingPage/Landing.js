@@ -9,14 +9,12 @@ function Landing() {
                 <div className="top_left_cont intro zoomIn wow animated">
                   <h2>
                     I AM YARIV
-                    <br /> <strong>CREATIVE DESIGNER</strong>
+                    <br /> <strong>THIRD-YEAR STUDENT</strong>
                   </h2>
                   <p>
-                    I am Andey Markus, from planet with a passion of Web,
-                    Graphic and Interactive design. <br />
-                    I specialise in standards compliant websites with a focus on
-                    usability. <br />
-                    Enthusiastic about life, design and innovation.{' '}
+                    I am Yariv Menachem, Third-year Computer Science (B.sc)
+                    student. <br />
+                    Looking for: Full-time | Part-time | Development. <br />
                   </p>
                   <div className="underline" />
                   <ul className="social_links">
