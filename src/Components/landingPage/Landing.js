@@ -25,8 +25,8 @@ function Landing() {
                         animationName: 'bounceIn',
                       }}
                     >
-                      <a href="javascript:void(0)">
-                        <i className="fa fa-twitter" />
+                      <a href="http://www.linkedin.com/in/YarivMen">
+                        <i className="fa fa-linkedin" />
                       </a>
                     </li>
                     <li
@@ -36,8 +36,8 @@ function Landing() {
                         animationName: 'bounceIn',
                       }}
                     >
-                      <a href="javascript:void(0)">
-                        <i className="fa fa-facebook" />
+                      <a href="https://github.com/yariv245">
+                        <i className="fa fa-github" />
                       </a>
                     </li>
                     <li
@@ -47,8 +47,8 @@ function Landing() {
                         animationName: 'bounceIn',
                       }}
                     >
-                      <a href="javascript:void(0)">
-                        <i className="fa fa-pinterest" />
+                      <a href="mailto: yariv220895@gmail.com">
+                        <i className="fa fa-envelope" />
                       </a>
                     </li>
                     <li
@@ -58,8 +58,8 @@ function Landing() {
                         animationName: 'bounceIn',
                       }}
                     >
-                      <a href="javascript:void(0)">
-                        <i className="fa fa-google-plus" />
+                      <a href="tel: +972524594598">
+                        <i className="fa fa-phone" />
                       </a>
                     </li>
                   </ul>{' '}
