@@ -10,6 +10,18 @@ import './css/animate.css';
 import './css/animation.css';
 import './css/style.css';
 import './css/font-awesome.css';
+import $ from 'jquery';
+
+// import './js/jquery-scrolltofixed.js';
+// import './js/jquery.nav.js';
+// import './js/jquery.easing.1.3.js';
+// import './js/jquery.isotope.js';
+// import './js/fancybox/jquery.fancybox.pack.js';
+// import './js/wow.js';
+// import './contact/jqBootstrapValidation.js';
+// import './contact/contact_me.js';
+// import './js/custom.js';
+
 ReactDOM.render(
   <>
     <Landing />
