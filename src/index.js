@@ -1,17 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Landing from './Components/landingPage/Landing';
+import About from './Components/About/About';
+import Header from './Components/Header';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'jquery/dist/jquery.min.js';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import './css/animate.css';
+import './css/animation.css';
+import './css/style.css';
+import './css/font-awesome.css';
+import $ from 'jquery';
+
+// import './js/jquery-scrolltofixed.js';
+// import './js/jquery.nav.js';
+// import './js/jquery.easing.1.3.js';
+// import './js/jquery.isotope.js';
+// import './js/fancybox/jquery.fancybox.pack.js';
+// import './js/wow.js';
+// import './contact/jqBootstrapValidation.js';
+// import './contact/contact_me.js';
+// import './js/custom.js';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <>
+    <Landing />
+    <Header />
+    <About />
+  </>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
