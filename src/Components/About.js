@@ -19,38 +19,29 @@ function About() {
                   </div>
                   {/* /.col-md-6 */}
                   <div className="col-md-6">
-                    <h3>I Design Awesome Web Apps</h3>
+                    <br />
+                    <h4>Experience</h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur Morbi sagittis,
-                      sem quisci ipsum gravida tortor orci ipsum gravida tortor.
-                      Lorem ipsum dolor sit amet, tortor orci ipsum gravida
-                      tortor. Lorem ipsum dolor sit amet, conseconsectetur.
+                      Automation Developer - DBmaestro, Petah Tikva 2019 - 2020
+                      <br />
+                      ● Develop automation test scripts using Pytest, Selenium,
+                      and Jenkins.
+                      <br />
                     </p>
+                    <br />
+                    <br />
+                    <br />
+                    <h4>Education</h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur Morbi sagittis,
-                      sem quisci ipsum gravida tortor orci ipsum gravida tortor.
+                      Computer Science (B.sc) Student - The College of
+                      Management Academic Studies
+                      <br />
+                      2018 - Present
+                      <br />
+                      ● Third-year student.
+                      <br />
                     </p>
-                    <ul className="about-us-list">
-                      <li className="points">
-                        Consectetur Morbi sagittis, sem quisci ipsum gravida
-                        tortor
-                      </li>
-                      <li className="points">
-                        Morbi sagittis, sem quis lacinia faucibus, orci ipsum
-                        gravida{' '}
-                      </li>
-                      <li className="points">
-                        Lorem ipsum dolor sit amet, consectetur Morbi sagittis,
-                        sem quisci gravida{' '}
-                      </li>
-                      <li className="points">
-                        Sagittis, sem quis lacinia faucibus, orci ipsum gravida{' '}
-                      </li>
-                      <li className="points">
-                        Ipsum dolor sit amet, consectetur Morbi sagittis, sem
-                        quisci
-                      </li>
-                    </ul>
+
                     {/* /.about-us-list */}
                   </div>
                   {/* /.col-md-6 */}
