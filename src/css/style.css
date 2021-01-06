@@ -545,6 +545,17 @@ a.read_more:hover {
   display: block;
   text-align: center;
 }
+.service_icon span svg {
+  color: #ffffff;
+  font-size: 40px;
+  margin-top: 0;
+  margin: auto;
+  position: relative;
+  top: 20px;
+  z-index: 20;
+  display: block;
+  text-align: center;
+}
 
 .service_block h3 {
   font-family: 'Raleway', sans-serif;
