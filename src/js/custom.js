@@ -11,14 +11,17 @@ import './jquery-scrolltofixed';
 import './jquery.nav';
 import './jquery.isotope';
 import './fancybox/jquery.fancybox.pack';
+// import $ from './jquery-1.11.0.min';
+// import jQuery from './jquery-1.11.0.min';
+
 $(window).on('load', function () {
-  jQuery('#all').click();
+  jQuery('#all').on('click', function () {});
   return false;
 });
 
 $(document).ready(function () {
   $('#header_wrapper').scrollToFixed();
-  $('.res-nav_click').click(function () {
+  $('.res-nav_click').on('click', function () {
     $('.main-nav').slideToggle();
     return false;
   });
@@ -69,7 +72,7 @@ $(document).ready(function () {
     layoutMode: 'fitRows',
   });
 
-  $('#filters a').click(function () {
+  $('#filters a').on('click', function () {
     $('#filters a').removeClass('active');
     $(this).addClass('active');
     var selector = $(this).attr('data-filter');
@@ -118,7 +121,7 @@ $(document).ready(function () {
     setColumns();
   });
 
-  $(window).bind('resize', function () {
+  $(window).on('resize', function () {
     setProjects();
   });
 
