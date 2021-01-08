@@ -41,21 +41,6 @@ function Header() {
                     Projects
                   </a>
                 </li>
-                <li>
-                  <a href="#clients" className="scroll-link">
-                    Experience
-                  </a>
-                </li>
-                <li>
-                  <a href="#team" className="scroll-link">
-                    Testimonial
-                  </a>
-                </li>
-                <li>
-                  <a href="#contact" className="scroll-link">
-                    Contact
-                  </a>
-                </li>
               </ul>
             </div>
           </nav>
