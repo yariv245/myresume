@@ -15,7 +15,7 @@ function About() {
                 <div className="row">
                   <div className="col-md-6">
                     {' '}
-                    <img className="img-responsive" src={profile} align />{' '}
+                    <img className="img-responsive" src={profile} alt="" />{' '}
                   </div>
                   {/* /.col-md-6 */}
                   <div className="col-md-6">

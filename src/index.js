@@ -14,9 +14,9 @@ import './css/animate.css';
 // import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 //  <--------js files -------->
-import 'jquery/dist/jquery.min.js';
-import './js/custom.js';
-
+// import 'jquery/dist/jquery.min.js';
+// import './js/custom.js';
+// import './js/jquery-1.11.0.min.js';
 ReactDOM.render(
   <>
     <Landing />
