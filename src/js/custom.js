@@ -7,12 +7,10 @@ Do not remove the back-link in this web template
 import $ from 'jquery';
 import jQuery from 'jquery';
 import WOW from 'wow.js';
-import './jquery-scrolltofixed';
+import './jquery-scrolltofixed.js';
 import './jquery.nav';
 import './jquery.isotope';
 import './fancybox/jquery.fancybox.pack';
-// import $ from './jquery-1.11.0.min';
-// import jQuery from './jquery-1.11.0.min';
 
 $(window).on('load', function () {
   jQuery('#all').on('click', function () {});
@@ -26,14 +24,14 @@ $(document).on('ready', function () {
     return false;
   });
 
-  // function resizeText() {
-  //   var preferredWidth = 767;
-  //   var displayWidth = window.innerWidth;
-  //   var percentage = displayWidth / preferredWidth;
-  //   var fontsizetitle = 25;
-  //   var newFontSizeTitle = Math.floor(fontsizetitle * percentage);
-  //   $('.divclass').css('font-size', newFontSizeTitle);
-  // }
+  function resizeText() {
+    var preferredWidth = 767;
+    var displayWidth = window.innerWidth;
+    var percentage = displayWidth / preferredWidth;
+    var fontsizetitle = 25;
+    var newFontSizeTitle = Math.floor(fontsizetitle * percentage);
+    $('.divclass').css('font-size', newFontSizeTitle);
+  }
   if ($('#main-nav ul li:first-child').hasClass('active')) {
     $('#main-nav').css('background', 'none');
   }
