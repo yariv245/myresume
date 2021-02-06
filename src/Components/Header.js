@@ -3,7 +3,6 @@ function Header() {
     <header id="header_wrapper">
       <div className="container">
         <div className="header_box">
-          {/*  <div class="logo"><a href="#"><img src="img/logo.png" alt="logo"></a></div>*/}
           <nav className="navbar navbar-inverse" role="navigation">
             <div className="navbar-header">
               <button
@@ -39,6 +38,11 @@ function Header() {
                 <li>
                   <a href="#Portfolio" className="scroll-link">
                     Projects
+                  </a>
+                </li>
+                <li>
+                  <a href="#contact" className="scroll-link">
+                    Contact
                   </a>
                 </li>
               </ul>

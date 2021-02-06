@@ -60,6 +60,17 @@ function Landing() {
                         <i className="fa fa-phone" />
                       </a>
                     </li>
+                    <li
+                      className="gplus animated bounceIn wow delay-05s animated"
+                      style={{
+                        visibility: 'visible',
+                        animationName: 'bounceIn',
+                      }}
+                    >
+                      <a href="https://docs.google.com/document/d/17dzWDbH9zsfozB2zIY2XmzzHJnkSfKHytDS6-HB7BuI/export?format=pdf">
+                        <i className="fa fa-download" />
+                      </a>
+                    </li>
                   </ul>{' '}
                 </div>
               </div>

@@ -30,6 +30,7 @@ function Projects() {
         >
           {/* Portfolio Item */}
           <figure
+            className="portfolio-item one-four appleIOS isotope-item effect-oscar"
             style={{
               position: 'absolute',
               left: '0px',
@@ -38,7 +39,6 @@ function Projects() {
               width: '337px',
               opacity: 1,
             }}
-            className="portfolio-item one-four   appleIOS isotope-item effect-oscar"
           >
             <div className="portfolio_img">
               <img src={moviestoreIMG} alt="Portfolio 1" />{' '}

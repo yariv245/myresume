@@ -5,14 +5,16 @@ import About from './Components/About';
 import Header from './Components/Header';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
+import Contact from './Components/Contact';
+
 // import Projects from './Components/TEMP';
 
 //  <--------css files -------->
 import './css/bootstrap.min.css';
 import './js/fancybox/jquery.fancybox.css';
-import './css/style.css';
 import './css/font-awesome.css';
 import './css/animate.css';
+import './css/style.css';
 // import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 //  <--------js files -------->
@@ -26,6 +28,7 @@ ReactDOM.render(
     <About />
     <Skills />
     <Projects />
+    <Contact />
   </>,
   document.getElementById('root')
 );

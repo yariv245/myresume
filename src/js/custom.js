@@ -11,6 +11,7 @@ import './jquery-scrolltofixed.js';
 import './jquery.nav';
 import './jquery.isotope';
 import './fancybox/jquery.fancybox.pack';
+import imagesLoaded from 'react-images-loaded';
 
 $(window).on('load', function () {
   jQuery('#all').on('click', function () {});
@@ -70,16 +71,16 @@ $(document).on('ready', function () {
     layoutMode: 'fitRows',
   });
 
-  $('#filters a').on('click', function () {
-    $('#filters a').removeClass('active');
-    $(this).addClass('active');
-    var selector = $(this).attr('data-filter');
-    container.isotope({
-      filter: selector,
-    });
-    setProjects();
-    return false;
-  });
+  // $('#filters a').on('click', function () {
+  //   $('#filters a').removeClass('active');
+  //   $(this).addClass('active');
+  //   var selector = $(this).attr('data-filter');
+  //   container.isotope({
+  //     filter: selector,
+  //   });
+  //   setProjects();
+  //   return false;
+  // });
 
   function splitColumns() {
     var winWidth = $(window).width(),
