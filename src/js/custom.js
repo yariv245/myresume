@@ -11,6 +11,7 @@ import './jquery-scrolltofixed.js';
 import './jquery.nav';
 import './jquery.isotope';
 import './fancybox/jquery.fancybox.pack';
+import './jquery.easing.1.3';
 import imagesLoaded from 'react-images-loaded';
 
 $(window).on('load', function () {
@@ -71,16 +72,16 @@ $(document).on('ready', function () {
     layoutMode: 'fitRows',
   });
 
-  // $('#filters a').on('click', function () {
-  //   $('#filters a').removeClass('active');
-  //   $(this).addClass('active');
-  //   var selector = $(this).attr('data-filter');
-  //   container.isotope({
-  //     filter: selector,
-  //   });
-  //   setProjects();
-  //   return false;
-  // });
+  $('#filters a').on('click', function () {
+    $('#filters a').removeClass('active');
+    $(this).addClass('active');
+    var selector = $(this).attr('data-filter');
+    container.isotope({
+      filter: selector,
+    });
+    setProjects();
+    return false;
+  });
 
   function splitColumns() {
     var winWidth = $(window).width(),
@@ -123,6 +124,9 @@ $(document).on('ready', function () {
   $(window).on('resize', function () {
     setProjects();
   });
+  $(window).on('load', function () {
+    setProjects();
+  });
 
   $('.fancybox').fancybox();
 
@@ -131,6 +135,7 @@ $(document).on('ready', function () {
     offset: 100,
   });
   wow.init();
+
   // document.getElementById('').on('click', function () {
   //   var section = document.createElement('section');
   //   section.className = 'wow fadeInDown';

@@ -1,7 +1,9 @@
-import moviestoreIMG from '../img/moviestore.png';
-import GetFitnessIMG from '../img/GetFitness.jpg';
-import JustAskIMG from '../img/comingsoon.png';
-import CoopShotIMG from '../img/finalsoon.jpeg';
+import moviestoreIMG from '../img/portfolio_pic1.jpg';
+import GetFitnessIMG from '../img/portfolio_pic2.jpg';
+import JustAskIMG from '../img/portfolio_pic3.jpg';
+import CoopShotIMG from '../img/portfolio_pic4.jpg';
+// import FlightGearIMG from '../img/FlightGear.jpg';
+import FlightGearIMG from '../img/portfolio_pic5.jpg';
 function Projects() {
   return (
     <section id="Portfolio" className="content">
@@ -20,7 +22,7 @@ function Projects() {
       </div>
       {/* Container */}
       <div className="portfolio-top" />
-      {/* Portfolio Filters */}
+
       <div className="portfolio">
         {/* Portfolio Wrapper */}
         <div
@@ -30,7 +32,7 @@ function Projects() {
         >
           {/* Portfolio Item */}
           <figure
-            className="portfolio-item one-four appleIOS isotope-item effect-oscar"
+            className="portfolio-item one-four isotope-item effect-oscar"
             style={{
               position: 'absolute',
               left: '0px',
@@ -62,11 +64,11 @@ function Projects() {
               position: 'absolute',
               left: '0px',
               top: '0px',
-              transform: 'translate3d(337px, 0px, 0px) scale3d(1, 1, 1)',
+              transform: 'translate3d(674px, 0px, 0px) scale3d(1, 1, 1)',
               width: '337px',
               opacity: 1,
             }}
-            className="portfolio-item one-four  design isotope-item effect-oscar"
+            className="portfolio-item one-four isotope-item effect-oscar"
           >
             <div className="portfolio_img">
               {' '}
@@ -88,11 +90,11 @@ function Projects() {
               position: 'absolute',
               left: '0px',
               top: '0px',
-              transform: 'translate3d(674px, 0px, 0px) scale3d(1, 1, 1)',
+              transform: 'translate3d(337px, 240px, 0px) scale3d(1, 1, 1)',
               width: '337px',
               opacity: 1,
             }}
-            className="portfolio-item one-four  design  isotope-item effect-oscar"
+            className="portfolio-item one-four  isotope-item effect-oscar"
           >
             <div className="portfolio_img">
               {' '}
@@ -114,11 +116,11 @@ function Projects() {
               position: 'absolute',
               left: '0px',
               top: '0px',
-              transform: 'translate3d(1011px, 0px, 0px) scale3d(1, 1, 1)',
+              transform: 'translate3d(674px, 240px, 0px) scale3d(1, 1, 1)',
               width: '337px',
               opacity: 1,
             }}
-            className="portfolio-item one-four  android  prototype web isotope-item effect-oscar"
+            className="portfolio-item one-four isotope-item effect-oscar"
           >
             <div className="portfolio_img">
               {' '}
@@ -134,6 +136,34 @@ function Projects() {
             </figcaption>
           </figure>
           {/* Portfolio Item */}
+          {/* Portfolio Item */}
+          <figure
+            className="portfolio-item one-four isotope-item effect-oscar"
+            style={{
+              position: 'absolute',
+              left: '0px',
+              top: '0px',
+              transform: 'translate3d(337px, 0px, 0px) scale3d(1, 1, 1)',
+              width: '337px',
+              opacity: 1,
+            }}
+          >
+            <div className="portfolio_img">
+              <img src={FlightGearIMG} alt="Portfolio 1" />{' '}
+            </div>
+            <figcaption>
+              <div>
+                <a
+                  href="https://github.com/yariv245/FlightGear"
+                  className="fancybox"
+                >
+                  <h2>FlightGear Simulator</h2>
+                  <p>MVVM | Java | JavaFX</p>
+                </a>
+              </div>
+            </figcaption>
+          </figure>
+          {/*/Portfolio Item */}
         </div>
         {/*/Portfolio Wrapper */}
       </div>
